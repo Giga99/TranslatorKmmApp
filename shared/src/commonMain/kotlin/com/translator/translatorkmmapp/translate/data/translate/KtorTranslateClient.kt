@@ -11,7 +11,6 @@ import io.ktor.client.request.*
 import io.ktor.http.*
 import io.ktor.utils.io.errors.*
 
-
 class KtorTranslateClient(
     private val httpClient: HttpClient
 ) : TranslateClient {
