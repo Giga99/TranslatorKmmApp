@@ -29,6 +29,8 @@ kotlin {
                 implementation(Deps.ktorCore)
                 implementation(Deps.ktorSerialization)
                 implementation(Deps.ktorSerializationJson)
+                implementation(Deps.ktorClientLogging)
+                implementation(Deps.logger)
                 implementation(Deps.sqlDelightRuntime)
                 implementation(Deps.sqlDelightCoroutinesExtensions)
                 implementation(Deps.kotlinDateTime)

@@ -37,6 +37,8 @@ object Deps {
     const val ktorSerializationJson = "io.ktor:ktor-serialization-kotlinx-json:$ktorVersion"
     const val ktorAndroid = "io.ktor:ktor-client-android:$ktorVersion"
     const val ktorIOS = "io.ktor:ktor-client-ios:$ktorVersion"
+    const val ktorClientLogging = "io.ktor:ktor-client-logging:$ktorVersion"
+    const val logger = "org.slf4j:slf4j-simple:1.6.1"
 
     // GRADLE PLUGINS
     const val kotlinVersion = "1.7.21"
