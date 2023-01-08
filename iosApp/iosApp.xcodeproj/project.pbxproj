@@ -11,6 +11,7 @@
 		058557D9273AAEEB004C7B11 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 058557D8273AAEEB004C7B11 /* Preview Assets.xcassets */; };
 		2152FB042600AC8F00CF470E /* iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2152FB032600AC8F00CF470E /* iOSApp.swift */; };
 		41DD0FC22960921E004C5AB5 /* TextToSpeech.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DD0FC12960921E004C5AB5 /* TextToSpeech.swift */; };
+		41DD0FC4296094F8004C5AB5 /* TranslateHistoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DD0FC3296094F8004C5AB5 /* TranslateHistoryItem.swift */; };
 		41E7BE35295E495800A83478 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E7BE34295E495800A83478 /* Colors.swift */; };
 		41E7BE3C295E536400A83478 /* LanguageDropDownItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E7BE3B295E536400A83478 /* LanguageDropDownItem.swift */; };
 		41E7BE3E295E561200A83478 /* LanguageDropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E7BE3D295E561200A83478 /* LanguageDropDown.swift */; };
@@ -31,6 +32,7 @@
 		058557D8273AAEEB004C7B11 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2152FB032600AC8F00CF470E /* iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSApp.swift; sourceTree = "<group>"; };
 		41DD0FC12960921E004C5AB5 /* TextToSpeech.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextToSpeech.swift; sourceTree = "<group>"; };
+		41DD0FC3296094F8004C5AB5 /* TranslateHistoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslateHistoryItem.swift; sourceTree = "<group>"; };
 		41E7BE34295E495800A83478 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		41E7BE3B295E536400A83478 /* LanguageDropDownItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageDropDownItem.swift; sourceTree = "<group>"; };
 		41E7BE3D295E561200A83478 /* LanguageDropDown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageDropDown.swift; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 				41E7BE4A295E654F00A83478 /* LanguageDisplay.swift */,
 				41E7BE4C295E65F700A83478 /* ProgressButton.swift */,
 				41E7BE4E295E673700A83478 /* TranslateTextField.swift */,
+				41DD0FC3296094F8004C5AB5 /* TranslateHistoryItem.swift */,
 			);
 			path = components;
 			sourceTree = "<group>";
@@ -314,6 +317,7 @@
 				41E7BE46295E5A1000A83478 /* TranslateScreen.swift in Sources */,
 				41DD0FC22960921E004C5AB5 /* TextToSpeech.swift in Sources */,
 				7555FF83242A565900829871 /* ContentView.swift in Sources */,
+				41DD0FC4296094F8004C5AB5 /* TranslateHistoryItem.swift in Sources */,
 				41E7BE4F295E673700A83478 /* TranslateTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
