@@ -67,7 +67,7 @@ class AndroidVoiceToTextParser(
     override fun onRmsChanged(rmsdB: Float) {
         // Normalize rmsdB value between 0 and 1
         val powerRation = rmsdB * (1f / (VOLUME_MAX_VALUE - (VOLUME_MIN_VALUE)))
-        _state.update { it.copy(powerRation = powerRation) }
+        _state.update { it.copy(powerRatio = powerRation) }
     }
 
     override fun onBufferReceived(buffer: ByteArray?) = Unit
